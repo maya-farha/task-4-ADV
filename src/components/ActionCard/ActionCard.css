@@ -1,0 +1,42 @@
+.actionCard,
+.actionCard.blue {
+  padding: 30px 40px;
+  max-width: 380px;
+  img {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.actionCard {
+  h2 {
+    color: #222222;
+  }
+  p {
+    color: #22222280;
+  }
+}
+
+.actionCard.blue {
+  background-color: #025595;
+  border-radius: 15px;
+  h2,
+  p {
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 992px) {
+  .actionCard,
+  .actionCard.blue {
+    padding: 15px 17.5px;
+  }
+}

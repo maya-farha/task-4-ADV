@@ -1,0 +1,48 @@
+.hero {
+  height: 100vh;
+  background-color: #eff8ff;
+  background-image: url("/assets/imgs/modern-residential-building-transformed\ 1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: clamp(300px, 90.11vw, 1200px) auto;
+  
+  h1 {
+    padding-top: 122px;
+    font-size: 60px;
+    max-width: 40.19vw;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 20px;
+    color: #222222;
+    margin-left: 70px;
+  }
+
+  .description {
+    max-width: 30.96vw;
+    font-weight: 400;
+    line-height: 26px;
+    color: #22222280;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero {
+    background-position: bottom center;
+    background-size: 147vw;
+
+    h1 {
+      padding-top: 132px;
+      font-size: 35px;
+      max-width: 100%;
+      line-height: 46px;
+      margin: 0 20px;
+    }
+
+    .description {
+      font-size: 14px;
+      max-width: 100%;
+      line-height: 20px;
+      margin: 20px 20px 0;
+    }
+  }
+}

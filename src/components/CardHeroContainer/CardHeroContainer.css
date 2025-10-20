@@ -1,0 +1,25 @@
+.CardHeroContainer {
+  display: flex;
+  align-items: center;
+  gap: 63.68px;
+  padding: 20px 58px;
+  background: #ffffff80;
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+@media screen and (max-width: 992px) {
+  .CardHeroContainer {
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    gap: 24px;
+    border-radius: unset;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: unset;
+  }
+}

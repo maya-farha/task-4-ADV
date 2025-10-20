@@ -1,0 +1,47 @@
+.buttons {
+  margin-top: 56px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+button {
+  white-space: nowrap;
+  background-color: unset;
+  border: unset;
+  padding-bottom: 15px;
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 100%;
+  color: #222222;
+}
+
+button.active {
+  font-weight: 600;
+  color: #025595;
+  border-bottom: 2px solid #025595;
+}
+
+.propertiesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 31px;
+  margin-top: 41px;
+}
+.propertyImg {
+  width: 100%;
+  border-radius: 5px;
+  max-width: 382px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .propertiesContainer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
