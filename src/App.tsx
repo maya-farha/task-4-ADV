@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <Navbar
-        logo="/assets/imgs/logo.png"
+        logo="assets/imgs/logo.png"
         links={linksNav}
         bttn="Login"
       ></Navbar>

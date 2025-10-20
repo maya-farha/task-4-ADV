@@ -7,7 +7,7 @@ function ApartmentCard({ image, price, title, location }: ApartmentCardProps) {
       <p className="price">{price}</p>
       <h2>{title}</h2>
       <div className="location">
-        <img src="/assets/icons/location.svg" alt="locationIcon"></img>
+        <img src="assets/icons/location.svg" alt="locationIcon"></img>
         <p>{location}</p>
       </div>
     </div>

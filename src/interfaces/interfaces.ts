@@ -10,6 +10,16 @@ export interface HeroCard {
   children: React.ReactNode;
 }
 
+export interface LinkItem {
+  name: string;
+  to: string;
+}
+
+export interface NavbarProps {
+  links: LinkItem[];
+  logo: string;
+  bttn: string;
+}
 export interface CardHeroContainerProps {
   cards: HeroCard[];
 }

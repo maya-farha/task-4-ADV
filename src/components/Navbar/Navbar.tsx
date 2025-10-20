@@ -1,15 +1,6 @@
-interface LinkItem {
-  name: string;
-  to: string;
-}
-
-interface NavbarProps {
-  links: LinkItem[];
-  logo: string;
-  bttn: string;
-}
 import { useState } from "react";
 import "./Navbar.css";
+import type { NavbarProps } from "../../interfaces/interfaces";
 function Navbar({ links, logo, bttn }: NavbarProps) {
   const [show, setShow] = useState(false);
   function handle() {
@@ -30,9 +21,9 @@ function Navbar({ links, logo, bttn }: NavbarProps) {
       <button className="bttn">{bttn}</button>
       <button onClick={handle} className="burger">
         {show ? (
-          <img src="/assets/icons/close 1.png" alt="close-icon"></img>
+          <img src="assets/icons/close 1.png" alt="close-icon"></img>
         ) : (
-          <img src="/assets/icons/burger.svg" alt="burger-icon"></img>
+          <img src="assets/icons/burger.svg" alt="burger-icon"></img>
         )}
       </button>
       <ul className={`navMenu ${show ? "show" : ""}`}>
